@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(38, 50, 56)!important;
+}
+
+.calculator {
+    background-color: rgb(25, 34, 39);
+    width: 50vw;
+    text-align: center;
+    margin: 20px auto;
+    border: 5px solid #c9c9c9;
+    border-radius: 40px;
+    padding: 2vw;
+}
+
+.calculator button {
+    height: 10vw;
+    margin: 0.5vw 0;
+    font-size: 40px;
+    background: linear-gradient(150deg, rgb(177, 23, 177) -50%, gold 50%, rgb(177, 23, 177) 150%);
+    border-radius: 100px;
+    border-width: 5px;
+    border-color: gold;
+}
+
+.calculator button:hover {
+    background: linear-gradient(220deg, rgb(177, 23, 177) -50%, gold 50%, rgb(177, 23, 177) 150%);
+}
+
+.calculator button:focus {
+    outline: none;
+}
+
+.calculator header input {
+    margin-bottom: 20px;
+    direction: ltr;
+    background-color: rgb(38, 50, 56);
+    border: 2px solid cyan;
+    border-radius: 20px;
+    padding: 20px;
+    color: cyan;
+    height: 10vw;
+    width: 100%;
+    font-size: 20px;
+    overflow-y: scroll;
+}
+
+.calcrow {
+    text-align: center;
+    padding: 0!important;
+    margin: 0!important;
+}
+
+.calcrow div {
+    padding: 0 0.5vw!important;
+}
